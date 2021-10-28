@@ -35,3 +35,16 @@ def from10to16(num):
         num //= 16
 
     return stroka[::-1]
+
+
+
+stroka = 'F5F'
+
+print(stroka[-2:])
+
+
+def lastTwoSymb(stroka):
+    return (stroka[-2:] == '1A' or stroka[-2:] == '1F')
+
+
+print(lastTwoSymb(stroka))
